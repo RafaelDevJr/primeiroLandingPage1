@@ -1,0 +1,116 @@
+body {
+    
+    background: linear-gradient(rgb(0, 14, 166), rgb(0, 255, 247)); /*cor do fundo da pagina*/
+    margin: 0px; /*margin externa dos elementos*/
+    padding: 0px;/*distância do conteúdo de um elemento e suas bordas*/
+}
+.menu {
+    display: flex;/* elementos dentro do container em linhas ou colunas*/
+    justify-content: space-between; /*desloca um item para o inicio e outro para o final do eixo*/
+}
+.lado-esquerdo {
+    width: 30%;/*largura*/
+    height: 50%;/*altura*/
+    display: block;/*elementos um em cima do outro*/
+    position: relative;/*posição relativa a si mesmo*/
+    left: 350px;/*posição apartit do lado esquerdo*/
+    top: 20px;/*posiciona apartir do topo da pagina*/
+    font-family: sans-serif;/*esilo da letra*/
+}
+h1{
+    color: white;/*cor do texto*/
+    font-size: 38px;/*tamanho do texto*/
+    position: relative;/*posição relativa a si mesmo*/
+    left: 5px;/*posição apartit do lado esquerdo*/
+    display: flex;/* elementos dentro do container em linhas ou colunas*/
+    margin-bottom: 0%; /*margin externa e de baixo dos elementos*/
+    text-align: justify;/*justifica o texto*/
+    text-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0);/*coloca sombra*/
+}
+h2{
+    width: 98%;/*largura*/
+    color: white;/*cor do texto*/
+    margin: 0px;/*margin externa dos elementos*/
+    position: relative;/*posição relativa a si mesmo*/
+    left: 5px;/*posição apartit do lado esquerdo*/
+    display: flex;/* elementos dentro do container em linhas ou colunas*/
+    text-align: justify;/*justifica o texto*/
+    text-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0);/*coloca sombra*/
+}
+p{
+    color: rgb(154, 240, 255);/*cor do texto*/
+    width: 98%;/*largura*/
+    position: relative;/*posição relativa a si mesmo*/
+    left: 5px;/*posição apartit do lado esquerdo*/
+    text-align: justify;/*justifica o texto*/
+    text-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0);/*coloca sombra*/
+}
+.form {
+    display: flex;/* elementos dentro do container em linhas ou colunas*/
+    flex-direction: column; /*direção dos itens um em cima do outro*/
+    
+}
+input {
+    /*border-radius: 10px;arredonda as bordas do elemento*/
+    margin: 4px;/*margin externa dos elementos*/
+    box-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0); /*coloca sombra*/
+    outline: none; /* para retilar as linhas de seleção que ficam 
+    ao lado de fora*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif; /*tipo de texto*/
+}
+button {
+    height: 40px;/*altura*/
+    color: white;/*cor do texto*/
+    background-color: black;
+    /*border-radius: 10px;arredonda as bordas do elemento*/
+    box-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0);/*coloca sombra*/
+    margin: 4px;/*margin externa dos elementos*/
+    outline: none; /* para retilar as linhas de seleção que ficam 
+    ao lado de fora*/
+    font-size: large;/*temanho de texto*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', 
+     Geneva, Verdana, sans-serif; /*tipo de texto*/
+    
+}
+.img1 {
+    width: 100px;/*largura*/
+    height: 100px;/*altura*/
+    padding: 30px;/*distância do conteúdo de um elemento e suas bordas*/
+}
+.img2 {
+    width: 600px;/*largura*/
+    height: 450px;/*altura*/
+    position: relative;/*posição relativa a si mesmo*/
+    left: 750px; /*posição apartir do lado esquerdo*/
+    bottom: 330px; /*posição vertical em relação a borda inferior*/
+}
+.img3 {
+    width: 700px;/*largura*/
+    height: 200px;/*altura*/
+    position: relative;/*posição relativa a si mesmo*/
+    right: 350px;/*posição apartir do lado direito*/
+    bottom: 280px; /*posição vertical em relação a borda inferior*/
+}
+.nav {
+    padding: 30px;/*distância do conteúdo de um elemento e suas bordas*/
+    width: 450px;/*largura*/
+    height: 100px;/*altura*/
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;/*esilo da letra*/
+}
+a {
+    color: white; /*cor do texto*/
+    display: inline-block; /* coloca um ao lado do outro*/
+    margin: 5px; /*margin externa dos elementos*/
+    list-style: none;/*tira as bolinhas*/
+    text-decoration: none;/*tira o sublinhado*/
+    font-size: large; /*altera o tamanho das letras*/
+    position: relative;/*posição relativa a si mesmo*/
+    left: 165px;/*posição apartit do lado esquerdo*/ 
+}
+a:hover {
+    color:rgb(13, 0, 255) ;/* (hover) faz mudar de cor ao passar o mouse por cima*/
+}
